@@ -1,0 +1,61 @@
+:root {
+  --academic-blue: #1e3a8a;
+  --academic-orange: #ea580c;
+  --academic-light-blue: #bfdbfe;
+  --academic-light-orange: #fed7aa;
+}
+
+body {
+  background-color: #f8fafc;
+  color: #1f2937;
+}
+
+.academic-header {
+  background-color: var(--academic-blue);
+  color: white;
+  padding: 1rem;
+  border-bottom: 4px solid var(--academic-orange);
+}
+
+.academic-card {
+  border-top: 4px solid var(--academic-blue);
+  transition: all 0.3s ease;
+}
+
+.academic-card:hover {
+  box-shadow: 0 4px 6px -1px var(--academic-light-blue), 0 2px 4px -1px var(--academic-light-orange);
+}
+
+.academic-button {
+  background-color: var(--academic-blue);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.academic-button:hover {
+  background-color: var(--academic-orange);
+}
+
+.academic-icon {
+  color: var(--academic-orange);
+}
+
+.progress-bar {
+  background-color: var(--academic-light-blue);
+}
+
+.progress-bar-fill {
+  background-color: var(--academic-blue);
+}
+
+.nav-button {
+  background-color: var(--academic-light-blue);
+  color: var(--academic-blue);
+  transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: var(--academic-light-orange);
+  color: var(--academic-orange);
+}
+
